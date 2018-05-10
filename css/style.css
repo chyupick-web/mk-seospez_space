@@ -2,6 +2,11 @@ body, footer {
   font-family: 'Allerta', sans-serif;
 }
 
+#weibo-logo {
+  width: 35px;
+  filter: contrast(0%) brightness(1000%);
+}
+
 .navbar-inverse {
      background-color: transparent;
      padding: 0.5% 5% 0.5% 5%;
