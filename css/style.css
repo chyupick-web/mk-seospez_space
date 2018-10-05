@@ -71,7 +71,11 @@ body, footer {
 	margin: auto;
 	background: url("../img/intro_bg.jpg") no-repeat center center;
 	background-size: cover;
-} 
+}
+
+#intro {
+  min-height: 600px!important;
+}
 
 
 #intro-lg {
