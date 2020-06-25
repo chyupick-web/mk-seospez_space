@@ -1,284 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" >
-		<title>Ventureum</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="icon" href="i/favicon.png" type="image/x-icon">
-		<!-- Google Fonts -->
-				<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
-				<!-- Bootstrap 4.3.1 CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
-		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<!-- Startup 3 CSS (Styles for all blocks) -->
-					<link href="css/style.css" rel="stylesheet" />
-				<!-- jQuery 3.3.1 -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-			</head> 
-	<body>
 
-<!-- Navigation 5 -->
+<head>
+	<meta charset="utf-8">
+	<title>Ventureum</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="i/favicon.png" type="image/x-icon">
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin"
+		rel="stylesheet">
+	<!-- Bootstrap 4.3.1 CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+	<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+	<!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Startup 3 CSS (Styles for all blocks) -->
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- jQuery 3.3.1 -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
 
-<nav class="pt-30 pb-30 bg-light lh-40 text-center navigation_5">
-	<div class="container px-xl-0">
-		<div class="row align-items-center">
-			<div class="col-lg-3 col-md-4 text-md-left">
-				<!-- <a href="#" class="logo link color-main">Venturuem</a> -->
-				<a href="#"><img src="i/logo_ventureum.png" srcset="i/logo_ventureum@2x.png 2x" class="img-fluid" alt="" /></a>
-			</div>
-			<div class="col-lg-9 col-md-8 text-md-right">
-				<a href="#Products" class="link color-main mr-15">Products</a>
-				<a href="#Partnership" class="link color-main mx-15">Partnership</a>
-				<a href="#Career" class="link color-main ml-15">Career</a>
-			</div>
-		</div>
-	</div>
-</nav>
-<!-- Content 2 -->
+<!-- Start of Intercom messenger script -->
+<script>
+	window.intercomSettings = {
+		app_id: "gjd0qon8",
+		custom_launcher_selector: "#contact_us"
+	};
+</script>
+<script>
+	(function () {
+		var w = window;
+		var ic = w.Intercom;
+		if (typeof ic === "function") {
+			ic('reattach_activator');
+			ic('update', w.intercomSettings);
+		} else {
+			var d = document;
+			var i = function () {
+				i.c(arguments);
+			};
+			i.q = [];
+			i.c = function (args) {
+				i.q.push(args);
+			};
+			w.Intercom = i;
+			var l = function () {
+				var s = d.createElement('script');
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = 'https://widget.intercom.io/widget/gjd0qon8';
+				var x = d.getElementsByTagName('script')[0];
+				x.parentNode.insertBefore(s, x);
+			};
+			if (w.attachEvent) {
+				w.attachEvent('onload', l);
+			} else {
+				w.addEventListener('load', l, false);
+			}
+		}
+	})();
+</script>
 
-<section class="pt-105 pb-95 bg-light content_2">
-	<div class="container px-xl-0 text-center">
-		<div class="row justify-content-center">
-			<div class="col-xl-8 col-lg-10">
-				<h2>Ventureum</h2>
-			</div>
-			<div class="col-xl-7 col-lg-9 col-md-10">
-				<div class="mt-35 f-18 medium color-heading text-adaptive">
-					a blockchain start-up company based in Toronto, Canada
+<Style>
+	.fa-animation {
+		color: #E90606;
+		margin: 0 3px;
+		font-size: 16px;
+		animation: pound .35s infinite alternate;
+		-webkit-animation: pound .35s infinite alternate;
+	}
+
+	@-webkit-keyframes pound {
+		to {
+			transform: scale(1.1)
+		}
+	}
+
+	@keyframes pound {
+		to {
+			transform: scale(1.1)
+		}
+	}
+</Style>
+
+<!-- End of Intercom messenger script -->
+
+<body>
+
+	<nav class="pt-30 pb-30 bg-light lh-40 text-center navigation_5">
+		<div class="container px-xl-0">
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-4 text-md-left">
+					<a href="#"><img src="i/logo_ventureum.png" srcset="i/logo_ventureum@2x.png 2x" class="img-fluid"
+							alt="" /></a>
+				</div>
+				<div class="col-lg-9 col-md-8 text-md-right ml-auto">
+					<a href="#Products" class="link color-main mr-15">Products</a>
+					<a href="#Partnership" class="link color-main mx-15">Partnership</a>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</nav>
 
-<!-- Feature 11 -->
-
-<section class="pt-60 pb-120 bg-light feature_11" id='Products'>
-	<div class="container px-xl-0">
-		<div class="row align-items-center">
-			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="small">Chainsfr</h2>
-				<div class="mt-20 mb-40 f-22 color-heading text-adaptive description">
-					Send Cryptocurrency with Ease
+	<section class="pt-105 pb-95 bg-light content_2">
+		<div class="container px-xl-0 text-center">
+			<div class="row justify-content-center">
+				<div class="col-xl-8 col-lg-10">
+					<h2>Ventureum</h2>
 				</div>
-				<div class="mb-30 block">
-					<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
-						<i class="fas fa-check mr-15"></i> Send via Email				
+				<div class="col-xl-7 col-lg-9 col-md-10">
+					<div class="mt-35 f-18 medium color-heading text-adaptive">
+						a blockchain start-up company based in Toronto, Canada
 					</div>
-					<div class="color-heading text-adaptive">
-						All you need is the recipient’s email address and <br />
-						a security answer to start a safe transfer. 		
-					</div>
-					<div class="color-heading text-adaptive">
-						<br />
-						Support <b>MetaMask, Ledger, Coinbase and <br />
-						Trust Wallet</b>
-					</div>
-				</div>
-				<div class="mb-30 block">
-					<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
-						<i class="fas fa-check mr-15"></i> Powered by google				
-					</div>
-					<div class="color-heading text-adaptive">
-						Single-click sign in, sensitive data stored in Google Drive, <br />
-						transactions managed inside Google Account				
-					</div>
-				</div>
-				<div class="block">
-					<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
-						<i class="fas fa-check mr-15"></i> Built-in Wallet				
-					</div>
-					<div class="color-heading text-adaptive">
-						Keyless, Non-custodial and Multiple Assets Support		
-					</div>
-				</div>
-				<div class="mt-60 d-sm-flex flex-wrap buttons">
-					<a href="https://www.chainsfr.com/" target="_blank" class="btn action-1 lg">Try it now</a>
-				</div>
-			</div>
-			<div class="col-xl-7 col-lg-6 col-sm-4">
-				<img src="i/chainsfr_landing.png" srcset="i/chainsfr_landing@2x.png 2x" class="bg" alt="" />
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Feature 3 -->
-
-<section class="pt-105 pb-70 bg-light text-center feature_3">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center">
-			<div class="col-xl-9 col-lg-10">
-				<h2 class="small">We also worked on</h2>
-				<div class="mt-25 mb-65 f-22 color-heading text-adaptive description">
-					We have created a new product that will help designers, developers and 
-					companies create websites for their startups quickly and easily.										
 				</div>
 			</div>
 		</div>
+	</section>
 
-		<div class="row justify-content-center align-items-stretch">
-			<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
-				<div class="px-45 pt-50 pb-60 radius10 mb-30 block">					
-					<div class="mt-20 mb-20 f-22 title">The Ventureum Protocol</div>
-					<div class="color-heading text-adaptive mb-30">
+	<section class="pt-60 pb-120 bg-light feature_11" id='Products'>
+		<div class="container px-xl-0">
+			<div class="row align-items-center">
+				<div class="col-xl-5 col-lg-6 col-sm-8">
+					<h2 class="small">Chainsfr</h2>
+					<div class="mt-20 mb-40 f-22 color-heading text-adaptive description">
+						Send Cryptocurrency with Ease
+					</div>
+					<div class="mb-30 block">
+						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
+							<i class="fas fa-check mr-15"></i> Send via Email
+						</div>
+						<div class="color-heading text-adaptive">
+							All you need is the recipient’s email address and <br />
+							a security answer to start a safe transfer.
+						</div>
+						<div class="color-heading text-adaptive">
+							<br />
+							Support <b>MetaMask, Ledger, Coinbase and <br />
+								Trust Wallet</b>
+						</div>
+					</div>
+					<div class="mb-30 block">
+						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
+							<i class="fas fa-check mr-15"></i> Powered by google
+						</div>
+						<div class="color-heading text-adaptive">
+							Single-click sign in, sensitive data stored in Google Drive, <br />
+							transactions managed inside Google Account
+						</div>
+					</div>
+					<div class="block">
+						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">
+							<i class="fas fa-check mr-15"></i> Built-in Wallet
+						</div>
+						<div class="color-heading text-adaptive">
+							Keyless, Non-custodial and Multiple Assets Support
+						</div>
+					</div>
+					<div class="mt-60 d-sm-flex flex-wrap buttons">
+						<a href="https://www.chainsfr.com/" target="_blank" class="btn action-1 lg">Try it now</a>
+					</div>
+				</div>
+				<div class="col-xl-7 col-lg-6 col-sm-4">
+					<img src="i/chainsfr_landing.png" srcset="i/chainsfr_landing@2x.png 2x" class="mw-900" alt="" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-150 pb-120 bg-dark color-white text-center feature_3">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<div class="col-xl-9 col-lg-10">
+					<h2 class="small">We also worked on</h2>
+					<div class="mt-25 mb-65 f-22 color-white op-7 text-adaptive description">
+						We have created a new product that will help designers, developers and
+						companies create websites for their startups quickly and easily.
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center align-items-stretch">
+				<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
+					<div class="px-45 pt-50 pb-60 radius10 mb-30 block">
+						<div class="mt-20 mb-20 f-22 title">The Ventureum Protocol</div>
+						<div class="color-white op-7 text-adaptive mb-30">
 							First crypto-crowdfunding protocol to perform self-regulation
 							for blockchain projects in a decentralized approach
+						</div>
+						<a href="https://github.com/ventureum/ventureum" target="_blank" class="link color-main"><i
+								class="fab fa-github f-36 color-white"></i></a>
 					</div>
-					<a href="https://github.com/ventureum/ventureum" target="_blank" class="link color-main"><i class="fab fa-github f-36 dark"></i></a>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
-				<div class="px-45 pt-50 pb-60 radius10 mb-30 block">			
-					<div class="mt-20 mb-20 f-22 title">CarbonVote X</div>
-					<div class="color-heading text-adaptive mb-30">
-							A smart contract to conduct vote in a secure fashion with the feature that the voting conducted did not require coins to leave voters’ wallets	
+				<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
+					<div class="px-45 pt-50 pb-60 radius10 mb-30 block">
+						<div class="mt-20 mb-20 f-22 title">CarbonVote X</div>
+						<div class="color-white op-7 text-adaptive mb-30">
+							A smart contract to conduct vote in a secure fashion with the feature that the voting
+							conducted did not require coins to leave voters’ wallets
+						</div>
+						<a href="https://github.com/ventureum/CarbonVoteX" target="_blank" class="link color-main"><i
+								class="fab fa-github f-36 color-white"></i></a>
 					</div>
-					<a href="https://github.com/ventureum/CarbonVoteX" target="_blank" class="link color-main"><i class="fab fa-github f-36 dark"></i></a>	
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
-				<div class="px-45 pt-50 pb-60 radius10 mb-30 block">					
-					<div class="mt-20 mb-20 f-22 title">RepSys</div>
-					<div class="color-heading text-adaptive mb-30">
-							Smart-contract based Reputation Systems	for blockchaiin project self-regulations
+				<div class="col-lg-4 col-md-8 col-sm-10 d-flex align-items-stretch">
+					<div class="px-45 pt-50 pb-60 radius10 mb-30 block">
+						<div class="mt-20 mb-20 f-22 title">RepSys</div>
+						<div class="color-white op-7 text-adaptive mb-30">
+							Smart-contract based Reputation Systems for blockchaiin project self-regulations
 							<br />
 							<br />
+						</div>
+						<a href="https://github.com/ventureum/RepSys" target="_blank" class="link color-main"><i
+								class="fab fa-github f-36 color-white"></i></a>
 					</div>
-					<a href="https://github.com/ventureum/RepSys" target="_blank" class="link color-main"><i class="fab fa-github f-36 dark"></i></a>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!-- Content 31 -->
+	</section>
 
-<section class="pt-100 pb-70 bg-dark text-center color-white content_31" id="Partnership">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center">
-			<h2 class="small col-lg-8">Partnership</h2>
-			<div class="col-lg-8 mt-25 mb-55 f-18 medium op-7 text-adaptive">
-				We build great blockchain projects together							
-			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-lg-3 col-md-5 col-sm-6">
-				<div class="mx-auto mb-30 mw-270 h-210 d-flex justify-content-center align-items-center radius6 block">
-					<img src="i/logo_fenbushi.png" srcset="i/logo_fenbushi@2x.png 2x" class="img-fluid" alt="Fenbushi" />
+	<section class="pt-150 pb-120 bg-light text-center color-main content_31" id="Partnership">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<h2 class="small col-lg-8">Partnership</h2>
+				<div class="col-lg-8 mt-25 mb-30 f-18 medium op-7 text-adaptive">
+					We build great blockchain projects together
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-5 col-sm-6">
-				<div class="mx-auto mb-30 mw-270 h-210 d-flex justify-content-center align-items-center radius6 block">
-					<img src="i/logo_futurecap.png" srcset="i/logo_futurecap@2x.png 2x" class="img-fluid" alt="Future Cap" />
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-5 col-sm-6">
-				<div class="mx-auto mb-30 mw-270 h-210 d-flex justify-content-center align-items-center radius6 block">
-					<img src="i/logo_linear.png" srcset="i/logo_linear@2x.png 2x" class="img-fluid" alt="Linear Capital" />
-				</div>   
-			</div>
-			<div class="col-lg-3 col-md-5 col-sm-6">
-				<div class="mx-auto mb-30 mw-270 h-210 d-flex justify-content-center align-items-center radius6 block">
-					<img src="i/logo_vechain.png" srcset="i/logo_vechain@2x.png 2x" class="img-fluid" alt="VeChain" />
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Content 13 -->
-
-<section class="pt-60 pb-60 bg-light content_13" id="Career">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center text-center">
-			<div class="col-xl-10 col-lg-11">
-				<div class="radius10 pt-60 pb-55 text-center inner">
-					<div class="row justify-content-center">
-						<div class="col-xl-9 col-lg-10 col-11">
-							<h2 class="mb-15 small">We are hiring</h2>
-							<div class="f-18 medium color-heading text-adaptive pb-60 border-bottom">
-								Excited about tackling the challenging problems in cryptocurrency world? <br> 
-								If so, you've found the right place.				
-							</div>					
-							<div class="text-md-left">
-								<h3 class="f-18 lh-27 mt-60 mb-10 semibold">Benefits</h3>
-								<div class="f-16 lh-24 color-heading text-adaptive mb-10">
-									Own your own projects from conception to launch
-								</div>
-								<div class="f-16 lh-24 color-heading text-adaptive mb-10">
-									Work whenever you work best (flexible hours)
-								</div>
-								<div class="f-16 lh-24 color-heading text-adaptive mb-10">
-									Flexible vacation - take time off when you need it
-								</div>
-								<div class="f-16 lh-24 color-heading text-adaptive mb-10">
-									12 weeks maternity/paternity leave
-								</div>
-								<div class="f-16 lh-24  color-heading text-adaptive mb-10">
-									The option of getting paid in Ethers 
-								</div>
+			<div class="mt-20 row justify-content-center text-md-left videos">
+				<div class="row justify-content-center text-center">
+					<div class="col-12">
+						<div class="row align-items-center ml-20 mr-20 justify-content-center no-gutters">
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_fenbushi.png" srcset="i/logo_fenbushi@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
 							</div>
-							<div class="text-md-left mb-30">
-								<h3 class="f-18 lh-27 mt-60 mb-10 semibold">Email</h3>
-								<div class="f-16 lh-24 color-heading text-adaptive mb-10">
-									career@ventureum.com
-								</div>
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_futurecap.png" srcset="i/logo_futurecap@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
+							</div>
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_linear.png" srcset="i/logo_linear@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
+							</div>
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_gf.png" srcset="i/logo_gf@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
+							</div>
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_iosg.png" srcset="i/logo_iosg@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
+							</div>
+							<div class="col-lg-3 col-sm-4 col-4 mb-15 holder">
+								<img src="i/logo_vechain.png" srcset="i/logo_vechain@2x.png 2x" alt=""
+									class="img-fluid ml-auto mr-auto mw-280" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!-- Footer 12 -->
+	</section>
 
-<footer class="pt-80 pb-50 bg-dark color-white text-center footer_12">
-	<div class="container px-xl-0">
-		<div class="lh-40 f-18 medium">
-			<a href="#Products" class="link color-white mx-20">Products</a>
-			<a href="#Partnership" class="link color-white mx-20">Partnership</a>
-			<a href="#Career" class="link color-white mx-20">Career</a>
+	<footer class="pt-80 pb-50 bg-dark color-white text-center footer_12">
+		<div class="container px-xl-0">
+			<div class="lh-40 f-18 medium">
+				<a href="#Products" class="link color-white mx-20">Products</a>
+				<a href="#Partnership" class="link color-white mx-20">Partnership</a>
+				<a id="contact_us" href="#" onclick="return false;" class="link color-white mx-20">Contact Us</a>
+			</div>
+			<div class="mt-60 text-adaptive">
+				&copy; 2020 Ventureum. All rights reserved.
+			</div>
 		</div>
-		<div class="mt-60 text-adaptive">
-			&copy; 2020 Ventureum. All rights reserved.
-		</div>
+	</footer>
+	<!-- forms alerts -->
+	<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		Thanks for your message!
 	</div>
-</footer>
-<!-- forms alerts -->
-<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	Thanks for your message!
-</div>
-<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	Please, fill in required fields.
-</div>
-<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	An error occurred while sending data :(
-</div>
+	<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		Please, fill in required fields.
+	</div>
+	<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		An error occurred while sending data :(
+	</div>
 
-<!-- Bootstrap 4.3.1 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<!-- Google maps JS API -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
-<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="js/jquery.maskedinput.min.js"></script>
-<!-- Startup 3 JS (Custom js for all blocks) -->
-<script src="js/script.js"></script>
+	<!-- Bootstrap 4.3.1 JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!-- Google maps JS API -->
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+	<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+	<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+	<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<!-- Startup 3 JS (Custom js for all blocks) -->
+	<script src="js/script.js"></script>
 
 </body>
+
 </html>
